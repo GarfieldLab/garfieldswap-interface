@@ -211,10 +211,14 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  background-position: top center;
-  background-repeat: no-repeat;
   background-image: url(${Bg});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  z-index: 0;
+  height: 100vh;
+  position: relative;
 }
 @media (max-width: 768px) {
   body {

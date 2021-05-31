@@ -79,7 +79,7 @@ function V1PairRemoval({
         })
 
         addTransaction(response, {
-          summary: `Remove ${token.equals(WETH[chainId]) ? 'WHT' : token.symbol}/HT V1 liquidity`
+          summary: `Remove ${token.equals(WETH[chainId]) ? 'WETH' : token.symbol}/ETH V1 liquidity`
         })
         setPendingRemovalHash(response.hash)
       })
@@ -119,8 +119,8 @@ function V1PairRemoval({
       </LightCard>
       <TYPE.darkGray style={{ textAlign: 'center' }}>
         {`Your Uniswap V1 ${
-          token.equals(WETH[chainId]) ? 'WHT' : token.symbol
-        }/HT liquidity will be redeemed for underlying assets.`}
+          token.equals(WETH[chainId]) ? 'WETH' : token.symbol
+        }/ETH liquidity will be redeemed for underlying assets.`}
       </TYPE.darkGray>
     </AutoColumn>
   )

@@ -365,7 +365,7 @@ export default function MigrateV1Exchange({
         ) : validatedAddress && token?.equals(WETH[chainId]) ? (
           <>
             <TYPE.body my={9} style={{ fontWeight: 400 }}>
-              Because Uniswap V2 uses WHT under the hood, your Uniswap V1 WHT/HT liquidity cannot be migrated. You
+              Because Uniswap V2 uses WETH under the hood, your Uniswap V1 WETH/ETH liquidity cannot be migrated. You
               may want to remove your liquidity instead.
             </TYPE.body>
 

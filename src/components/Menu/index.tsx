@@ -109,17 +109,11 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
+          <MenuItem id="link" href="https://farm.garfield.finance/#/vault">
+            机枪池
+          </MenuItem>
           <MenuItem id="link" href="https://garfieldfinance.gitbook.io/garfieldfinance/">
-            <BookOpen size={14} />
-            Docs
-          </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            Code
-          </MenuItem>
-          <MenuItem id="link" href="https://info.goswap.app/">
-            <PieChart size={14} />
-            Analytics
+            产品说明
           </MenuItem>
         </MenuFlyout>
       )}

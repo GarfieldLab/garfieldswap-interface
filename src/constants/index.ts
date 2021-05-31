@@ -66,7 +66,7 @@ export interface WalletInfo {
   mobileOnly?: true
 }
 
-export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
+export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = { 
   INJECTED: {
     connector: injected,
     name: 'Injected',
