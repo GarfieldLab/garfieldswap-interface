@@ -199,9 +199,18 @@ function SwapPoolTabs({ active }: { active: 'swap' | 'pool' | 'farm' }) {
       <a href="https://www.baidu.com" target="_blank" style={navlinkstyle}>
         挖矿
         </a>
+        <a target="_blank" style={navlinkstyle} href="https://farm.garfield.finance/#/vault">
+            机枪池
+          </a>
         <a href="https://garfieldfinance.gitbook.io/garfieldfinance/" target="_blank" style={navlinkstyle}>
         产品说明
         </a>
+        <a style={navlinkstyle} href="https://github.com/GarfieldLab/garfieldfinance-Valut/blob/main/REP-GarfieldFinance-2021-05-29.pdf" target="_blank">
+          Certik审计报告
+          </a>
+          <a style={navlinkstyle} href="https://github.com/GarfieldLab/garfieldswap-core/blob/main/Garfield%20Finance%20Swap_audit.pdf" target="_blank">
+          Armors Labs审计报告
+          </a>
     </Tabs>
   )
 }
