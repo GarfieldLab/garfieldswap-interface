@@ -1,2 +1,0 @@
-(this["webpackJsonpgarfieldswap-heco-interface"]=this["webpackJsonpgarfieldswap-heco-interface"]||[]).push([[8],{566:function(n,c){},567:function(n,c){},576:function(n,c){},577:function(n,c){},598:function(n,c){},601:function(n,c){},602:function(n,c){},607:function(n,c){},611:function(n,c){},674:function(n,c){}}]);
-//# sourceMappingURL=8.09416ea7.chunk.js.map
