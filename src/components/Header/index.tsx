@@ -190,13 +190,13 @@ function SwapPoolTabs({ active }: { active: 'swap' | 'pool' | 'farm' }) {
   const { t } = useTranslation()
   return (
     <Tabs style={{ marginBottom: '20px' }} >
-      <StyledNavLink id={`swap-nav-link`} to={'/swap'} isActive={() => active === 'swap'}>
-        {t('swap')}
+       <StyledNavLink id={`swap-nav-link`} to={'/swap'} isActive={() => active === 'swap'}>
+      兑换
       </StyledNavLink>
       <StyledNavLink id={`pool-nav-link`} to={'/pool'} isActive={() => active === 'pool'}>
-        {t('pool')}
+        资金池
       </StyledNavLink>
-      <a href="https://www.baidu.com" target="_blank" style={navlinkstyle}>
+     <a href="https://farm.garfield.finance/#/" target="_blank" style={navlinkstyle}>
         挖矿
         </a>
         <a target="_blank" style={navlinkstyle} href="https://farm.garfield.finance/#/vault">

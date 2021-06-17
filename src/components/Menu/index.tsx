@@ -109,13 +109,10 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://farm.garfield.finance/#/vault">
-            机枪池
-          </MenuItem>
-          <MenuItem id="link" href="https://garfieldfinance.gitbook.io/garfieldfinance/">
+           <MenuItem id="link" href="https://garfieldfinance.gitbook.io/garfieldfinance/">
             产品说明
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/GarfieldLab/garfieldfinance-Valut/blob/main/REP-GarfieldFinance-2021-05-29.pdf">
+            <MenuItem id="link" href="https://github.com/GarfieldLab/garfieldfinance-Valut/blob/main/REP-GarfieldFinance-2021-05-29.pdf">
           Certik审计报告
           </MenuItem>
           <MenuItem id="link" href="https://github.com/GarfieldLab/garfieldswap-core/blob/main/Garfield%20Finance%20Swap_audit.pdf">
